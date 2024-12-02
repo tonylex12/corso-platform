@@ -107,12 +107,14 @@ const Header = () => {
             >
               BLOG
             </Link>
-            <Link
-              to="/login"
-              className="w-full border-2 border-white text-white px-6 py-2 rounded-md font-medium hover:bg-white hover:text-[#100324] transition-colors"
-            >
-              Login
-            </Link>
+            <div className="pt-2">
+              <Link
+                to="/login"
+                className="block w-full border-2 border-white text-white px-6 py-2 rounded-md font-medium hover:bg-white hover:text-[#100324] transition-colors text-center"
+              >
+                Login
+              </Link>
+            </div>
           </div>
         )}
       </nav>

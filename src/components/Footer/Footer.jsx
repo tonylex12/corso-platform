@@ -123,11 +123,11 @@ const Footer = () => {
       </footer>
       <div className="bg-white py-4">
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center">
-            <div className="text-[#100324]">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="text-[#100324] text-center md:text-left">
               &copy; Copyright CORSO 2024
             </div>
-            <ul className="flex space-x-8">
+            <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 items-center md:items-start">
               <li>
                 <Link
                   to="/"
